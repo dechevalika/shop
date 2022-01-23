@@ -47,7 +47,6 @@ header {
   height: 23px;
   border: none;
   background-color: transparent;
-  margin-top: 30px;
 }
 
 .menu_btn-item {
@@ -59,11 +58,150 @@ header {
   position: relative;
 }
 
+.cart {
+  position: relative;
+}
+
+.cart-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  background: #f16d7f;
+  border-radius: 50%;
+  color: #ffffff;
+  position: absolute;
+  top: -8px;
+  right: -9px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
 /* ========= MAIN ============= */
 /* ----BRAND---- */
 .brand {
   height: 764px;
+  width: 100%;
   background: #f1e4e6;
+  background-image: url(/img/men_brand.png);
+  background-repeat: no-repeat;
+  background-position: center left 160px;
 }
 
+.brand__title {
+  margin: 0 0 0 631px;
+  text-transform: uppercase;
+  color: #222222;
+  position: relative;
+}
+
+.the-brand {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.lux {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.fashion {
+  color: #f16d7f;
+}
+
+/* ----BENEFITS---- */
+.benefits {
+  width: 100%;
+  height: 341px;
+  background: #222224;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 103px;
+}
+
+.box__delivery {
+  width: 360px;
+  height: 134px;
+  background-image: url(/img/delivery.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.box__sales {
+  width: 360px;
+  height: 134px;
+  background-image: url(/img/sales.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.box__quality {
+  width: 360px;
+  height: 134px;
+  background-image: url(/img/quality.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.box-h3 {
+  font-size: 19.96px;
+  line-height: 24px;
+  color: #fbfbfb;
+  padding-top: 66px;
+  text-align: center;
+}
+
+.box-text {
+  font-weight: 300;
+  font-size: 13.972px;
+  line-height: 17px;
+  text-align: center;
+  color: #fbfbfb;
+  padding-top: 16px;
+}
+
+/* ----MAIL---- */
+.mail {
+  background-image: url(/img/photo-mail.jpg);
+  width: 100%;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 97px;
+}
+
+.info__left {
+  background-image: url(/img/photo-mail-girl.png);
+  width: 360px;
+  height: 225px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.info-text {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+  padding-top: 133px;
+}
+
+.italic {
+  font-style: italic;
+}
 /* ========= FOOTER ============= */
