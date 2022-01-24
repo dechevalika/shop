@@ -84,22 +84,26 @@ header {
   height: 764px;
   width: 100%;
   background: #f1e4e6;
-  background-image: url(/img/men_brand.png);
+  background-image: url(../img/men_brand.png);
   background-repeat: no-repeat;
   background-position: center left 160px;
 }
 
 .brand__title {
-  margin: 0 0 0 631px;
+  margin: 0 0 0 1080px;
   text-transform: uppercase;
   color: #222222;
+  position: relative;
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+  padding-top: 290px;
+  height: 93px;
   position: relative;
 }
 
 .the-brand {
   font-weight: 900;
   font-size: 48px;
-  line-height: 58px;
 }
 
 .lux {
@@ -125,12 +129,8 @@ header {
 }
 
 .categories__content {
-  width: 360px;
-  height: 260px;
   list-style-type: none;
   box-sizing: border-box;
-  width: 360px;
-  height: 260px;
   position: relative;
   margin: 0 0 30px 0;
 }
@@ -148,6 +148,7 @@ h4 {
   position: absolute;
   top: 105px;
   left: 103px;
+  /* background: rgba(33, 22, 22, 0.7); */
 }
 
 h4 span {
@@ -177,6 +178,12 @@ h4 span {
   padding-top: 96px;
 }
 
+.card form {
+  padding-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
 .card h3 {
   font-size: 30px;
   line-height: 36px;
@@ -201,19 +208,35 @@ h4 span {
   gap: 30px;
 }
 
+.card__items ul {
+  list-style-type: none;
+}
+
+.categories__btn {
+  width: 212px;
+  height: 48px;
+  background: none;
+  border: 1px solid #ff6a6a;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+}
+
+.categories__btn:hover {
+  background: #f16d7f;
+  color: #ffffff;
+}
+
 /* ----BENEFITS---- */
 .benefits {
   width: 100%;
   height: 341px;
   background: #222224;
+  margin-top: 95px;
 }
 
 .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-top: 103px;
 }
@@ -221,7 +244,7 @@ h4 span {
 .box__delivery {
   width: 360px;
   height: 134px;
-  background-image: url(/img/delivery.svg);
+  background-image: url(../img/delivery.svg);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -229,7 +252,7 @@ h4 span {
 .box__sales {
   width: 360px;
   height: 134px;
-  background-image: url(/img/sales.png);
+  background-image: url(../img/sales.png);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -237,7 +260,7 @@ h4 span {
 .box__quality {
   width: 360px;
   height: 134px;
-  background-image: url(/img/quality.png);
+  background-image: url(../img/quality.png);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -261,7 +284,7 @@ h4 span {
 
 /* ----MAIL---- */
 .mail {
-  background-image: url(/img/photo-mail.jpg);
+  background-image: url(../img/photo-mail.jpg);
   width: 100%;
   min-height: 448px;
   background-repeat: no-repeat;
@@ -275,7 +298,7 @@ h4 span {
 }
 
 .info__left {
-  background-image: url(/img/photo-mail-girl.png);
+  background-image: url(../img/photo-mail-girl.png);
   width: 360px;
   height: 225px;
   background-position: top center;
