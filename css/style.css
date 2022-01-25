@@ -39,6 +39,7 @@ header {
   width: 168px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu_btn {
@@ -139,7 +140,7 @@ header {
   margin: 0 0 30px 0;
 }
 
-h4 {
+.categories__content h4 {
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
@@ -169,12 +170,15 @@ h4 span {
 }
 
 .accesories__h4 {
-  width: 168px;
+  width: 170px;
   display: block;
   position: absolute;
   top: 65px;
   left: 490px;
   text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: normal;
 }
 
 /* ----CARDS---- */
@@ -196,7 +200,7 @@ h4 span {
   padding-bottom: 6px;
 }
 
-.card p {
+.card__p {
   font-size: 14px;
   line-height: 17px;
   color: #9f9f9f;
@@ -204,16 +208,44 @@ h4 span {
   text-align: center;
 }
 
-.card__items {
+.card__items ul {
+  list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 360px);
   grid-template-rows: repeat(2, 582px);
-  background: #f8f8f8;
   gap: 30px;
 }
 
-.card__items ul {
-  list-style-type: none;
+.card__item {
+  background: #f8f8f8;
+}
+
+.name {
+  padding-top: 25px;
+  padding-left: 16px;
+  width: 314px;
+}
+
+.name__h4 {
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.name p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+  margin-bottom: 18px;
+}
+
+.name__span {
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
 }
 
 .categories__btn {
