@@ -86,19 +86,23 @@ header {
   background: #f1e4e6;
   background-image: url(../img/men_brand.png);
   background-repeat: no-repeat;
-  background-position: center left 160px;
+  background-position: center left 170px;
 }
 
 .brand__title {
-  margin: 0 0 0 1080px;
-  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #222222;
-  position: relative;
+  text-transform: uppercase;
+  min-height: inherit;
+  padding-top: 312px;
+  padding-left: 523px;
+}
+
+.brand_wrap {
   border-left: 12px solid #f16d7f;
   padding-left: 16px;
-  padding-top: 290px;
-  height: 93px;
-  position: relative;
 }
 
 .the-brand {
