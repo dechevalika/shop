@@ -15,6 +15,8 @@ body {
   margin: 0 auto;
 }
 
+/* Начало стр. index */
+
 /* ========= HEADER ============= */
 header {
   height: 75px;
@@ -475,4 +477,42 @@ footer {
 
 .soc-icon-img:hover {
   background: #ffffff;
+}
+/* Конец стр. index */
+
+/* Начало стр. catalog */
+.breadcrumbs {
+  width: 100%;
+  height: 148px;
+  background: #f8f3f4;
+}
+
+.breadcrumbs_content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 59px;
+}
+
+.arrivals {
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.breadcrumb__nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.breadcrumb_nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
 }
