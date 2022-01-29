@@ -25,9 +25,7 @@
                     </form>
                 </div>
                 <nav class="head__navigation">
-                    <button class="menu_btn">
-                        <a href="#"><img src="img/menu-btn.svg" alt=""></a>
-                    </button>
+                        <a class="menu_btn" href="#"><img src="img/menu-btn.svg" alt=""></a>
                     <a class="account__btn" href="#">
                         <img src="img/account.svg" alt="account">
                     </a>
@@ -40,27 +38,42 @@
         </div>
     </header>
 
-    <div class="breadcrumbs"> <!-- -----Arrivals------- -->
+    <div class="breadcrumbs"> <!-- ********Arrivals******** -->
         <div class="breadcrumbs_content container">
             <h1 class="arrivals">New arrivals</h1>
             <nav class="breadcrumb">
-                <ul class="breadcrumb__nav">
-                    <li class="breadcrumb-nav">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <span>/</span>
-                    <li class="breadcrumb-nav">
-                        <a href="#">Men</a>
-                    </li>
-                    <span>/</span>
-                    <li class="active">New arrivals</li>
-                </ul>
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="#">Men</a>
+                <span> / </span>
+                <p class="active">New arrivals</p>  
             </nav>
         </div>
     </div>
 
+    <div class="filter container"> <!-- ********FILTER******** -->
+        <div class="filter__left">
+            <span>Filter</span>
+            <img src="img/filter.svg" alt="filter">
+        </div>
+        <div class="filter__right">
+            <div class="filter-trending">
+                <span>Trending now</span> 
+                <img src="img/sort.png" alt="">
+            </div>
+            <div class="filter-size">
+                Size
+                <img src="img/sort.png" alt="">
+            </div>
+            <div class="filter-price">
+                Price
+                <img src="img/sort.png" alt="">
+            </div>
+        </div>
+    </div>
+
     <main class="container"> <!-- ========= MAIN ============= -->
-        <section class="card"> <!-- ---CARD--- -->
+        <div class="catalog-card"> <!-- ********CARD******** -->
             <div class="card__items">
                 <ul>
                     <li class="card__item">
@@ -173,11 +186,23 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </div>
+        <div class="pagination">
+            <nav class="page">
+                <a href="#"><img src="img/left.png" alt=""></a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">6.....20</a>
+                <a href="#"><img src="img/right.png" alt=""></a>
+            </nav>
+    </div>
     </main>
 
-        <section class="benefits">
-            <!-- ---BENEFITS--- -->
+        <section class="benefits">  <!-- ********BENEFITS********  -->
             <div class="container">
                 <div class="box">
                     <div class="box__delivery">
@@ -204,7 +229,7 @@
             </div>
         </section>
         
-        <section class="mail"> <!-- ---MAIL--- -->
+        <div class="mail"> <!-- ********MAIL******** -->
             <div class="container">
                 <div class="info">
                     <div class="info__left">
@@ -226,7 +251,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         
         <footer> <!-- ========= FOOTER ============= -->
             <div class="container">
