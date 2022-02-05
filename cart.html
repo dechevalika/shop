@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Cart</title>
+    <script src="https://kit.fontawesome.com/a4b4dff806.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <!-- ========= HEADER ============= -->
+        <div class="container">
+            <div class="head">
+                <div class="head__logo">
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                    <form action="#">
+                        <input id="search-btn" type="image" src="img/search.svg" alt="search">
+                    </form>
+                </div>
+                <nav class="head__navigation">
+                    <a class="menu_btn" href="#"><img src="img/menu-btn.svg" alt=""></a>
+                    <a class="account__btn" href="#">
+                        <img src="img/account.svg" alt="account">
+                    </a>
+                    <a class="cart" href="cart.html">
+                        <img src="img/cart.svg" alt="cart">
+                        <div class="cart-txt">5</div>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="breadcrumbs">
+        <!-- ********SHOPPPING CART******** -->
+        <div class="breadcrumbs_content container">
+            <h1 class="arrivals">Shopping cart</h1>
+        </div>
+    </div>
+
+    <main class="cart-content container"> <!-- ========= MAIN ============= -->
+        <div class="product-cart">
+            <div class="goods">
+                <div class="goods-one">
+                    <div class="goods-one-img">
+                        <img class="cart-photo" src="img/card3.png" alt="">
+                    </div>
+                    <div class="description-one">
+                        <p class="product-name">Mango people T-&nbsp;Shirt</p>
+                        <p>Price: <span>$300</span></p>
+                        <p>Color: Red</p>
+                        <p>Size: Xl</p>
+                        <div class="quantity">
+                            <span>Quantity:</span>
+                            <input type="text" value="2">
+                        </div>
+                    </div>
+                    <img class="delete" src="img/delete.png" alt="">
+                </div>
+
+            
+                <div class="goods-two">
+                    <div class="goods-one-img">
+                        <img class="cart-photo" src="img/man2.png" alt="">
+                    </div>
+                    <div class="description-one">
+                        <p class="product-name">Mango people T-&nbsp;Shirt</p>
+                        <p>Price: <span>$300</span></p>
+                        <p>Color: Red</p>
+                        <p>Size: Xl</p>
+                        <div class="quantity">
+                            <span>Quantity:</span>
+                            <input type="text" value="2">
+                        </div>
+                    </div>
+                    <img class="delete" src="img/delete.png" alt="">
+                </div>
+            </div>
+        
+            <div class="buttons">
+                <button>
+                    Clear shopping cart
+                </button>
+                <button>
+                    Continue shopping
+                </button>
+            </div>
+        </div>
+
+        <div class="form-info">
+            <form class="address" action="#">
+                <p>Shipping address</p>
+                <input class="city" type="text" value="Bangladesh">
+                <input class="inform" type="text" value="State">
+                <input class="inform" type="text" value="Postcode&nbsp;/ Zip">
+                <input class="btn" type="button" value="Get a quote">
+            </form>
+
+            <div class="total">
+                <div class="total-sub">
+                    <p>Sub total $900</p>
+                </div>
+                    
+                    <p class="total-grand">Grand total <span>$900</span></p>
+                <div class="total-line"></div>
+                <button>
+                    Proceed to checkout
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <div class="mail">
+        <!-- ********MAIL******** -->
+        <div class="container">
+            <div class="info">
+                <div class="info__left">
+                    <p class="info-text">&laquo;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi,
+                        <span class="italic">a&nbsp;pulvinar purus condimentum&raquo;</span>
+                    </p>
+                </div>
+                <div class="form-subscribe">
+                    <div class="subscribe-mail">
+                        <span class="tittle">Subscribe</span>
+                        <span class="subtittle">for our newletter and promotion</span>
+                    </div>
+                    <form class="form" action="#">
+                        <div class="form-mail">
+                            <input class="mail__chat" type="email" placeholder="Enter Your Email">
+                        </div>
+                        <button class="button-sub" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <!-- ========= FOOTER ============= -->
+        <div class="container">
+            <div class="footer-content">
+                <p class="rights">&copy;&nbsp;2021 Brand All Rights Reserved.</p>
+                <div class="footer__icons">
+                    <ul class="soc-icon-box">
+                        <li class="soc-icon-items">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="soc-icon-items">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="soc-icon-items">
+                            <a href="#">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li class="soc-icon-items">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
