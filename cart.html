@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,78 +46,89 @@
         </div>
     </div>
 
-    <main class="cart-content container"> <!-- ========= MAIN ============= -->
-        <div class="product-cart">
-            <div class="goods">
-                <div class="goods-one">
-                    <div class="goods-one-img">
-                        <img class="cart-photo" src="img/card3.png" alt="">
-                    </div>
-                    <div class="description-one">
-                        <p class="product-name">Mango people T-&nbsp;Shirt</p>
-                        <p>Price: <span>$300</span></p>
-                        <p>Color: Red</p>
-                        <p>Size: Xl</p>
-                        <div class="quantity">
-                            <span>Quantity:</span>
-                            <input type="text" value="2">
+    <div class="animate__animated animate__zoomIn">
+        <main class="cart-content container"> <!-- ========= MAIN ============= -->
+                <div class="product-cart">
+                    <div class="goods">
+                        <div class="goods-one">
+                            <div class="goods-one-img">
+                                <img class="cart-photo" src="img/card3.png" alt="">
+                            </div>
+                            <div class="description-one">
+                                <p class="product-name">Mango people T-&nbsp;Shirt</p>
+                                <p>Price: <span>$300</span></p>
+                                <p>Color: Red</p>
+                                <p>Size: Xl</p>
+                                <div class="quantity">
+                                    <span>Quantity:</span>
+                                    <input type="text" value="2">
+                                </div>
+                            </div>
+                            <button>
+                                <img class="delete" src="img/delete.png" alt="">
+                            </button>
                         </div>
-                    </div>
-                    <img class="delete" src="img/delete.png" alt="">
-                </div>
 
-            
-                <div class="goods-two">
-                    <div class="goods-one-img">
-                        <img class="cart-photo" src="img/man2.png" alt="">
-                    </div>
-                    <div class="description-one">
-                        <p class="product-name">Mango people T-&nbsp;Shirt</p>
-                        <p>Price: <span>$300</span></p>
-                        <p>Color: Red</p>
-                        <p>Size: Xl</p>
-                        <div class="quantity">
-                            <span>Quantity:</span>
-                            <input type="text" value="2">
-                        </div>
-                    </div>
-                    <img class="delete" src="img/delete.png" alt="">
-                </div>
-            </div>
-        
-            <div class="buttons">
-                <button>
-                    Clear shopping cart
-                </button>
-                <button>
-                    Continue shopping
-                </button>
-            </div>
-        </div>
-
-        <div class="form-info">
-            <form class="address" action="#">
-                <p>Shipping address</p>
-                <input class="city" type="text" value="Bangladesh">
-                <input class="inform" type="text" value="State">
-                <input class="inform" type="text" value="Postcode&nbsp;/ Zip">
-                <input class="btn" type="button" value="Get a quote">
-            </form>
-
-            <div class="total">
-                <div class="total-sub">
-                    <p>Sub total $900</p>
-                </div>
                     
-                    <p class="total-grand">Grand total <span>$900</span></p>
-                <div class="total-line"></div>
-                <button>
-                    Proceed to checkout
-                </button>
+                        <div class="goods-two">
+                            <div class="goods-one-img">
+                                <img class="cart-photo" src="img/man2.png" alt="">
+                            </div>
+                            <div class="description-one">
+                                <p class="product-name">Mango people T-&nbsp;Shirt</p>
+                                <p>Price: <span>$300</span></p>
+                                <p>Color: Red</p>
+                                <p>Size: Xl</p>
+                                <div class="quantity">
+                                    <span>Quantity:</span>
+                                    <input type="text" value="2">
+                                </div>
+                            </div>
+                            <button>
+                                <img class="delete" src="img/delete.png" alt="">
+                            </button>
+                                
+                        </div>
+                    </div>
+            
+                <div class="buttons">
+                    <button>
+                        Clear shopping cart
+                    </button>
+                    <button>
+                        Continue shopping
+                    </button>
+                </div>
             </div>
-        </div>
-    </main>
 
+            <div class="form-info">
+                <form class="address" action="#">
+                    <p>Shipping address</p>
+                    <input class="city" type="text" value="Bangladesh">
+                    <input class="inform" type="text" value="State">
+                    <input class="inform" type="text" value="Postcode&nbsp;/ Zip">
+                    <input class="btn" type="button" value="Get a quote">
+                </form>
+
+                <div class="total">
+                    <div class="total-sub">
+                        <span class="total-sub-span">Sub total</span>
+                        <span class="total-sub-span">$900</span>
+                    </div>
+                        
+                    <div class="total-grand">
+                        <p class="total-grand-p">Grand total</p> <span>$900</span>
+                    </div>
+                        
+                    <div class="total-line"></div>
+                    <button>
+                        Proceed to checkout
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
     <div class="mail">
         <!-- ********MAIL******** -->
         <div class="container">
