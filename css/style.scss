@@ -1670,3 +1670,191 @@ footer {
   }
 }
 /* Конец стр. cart */
+
+/* Начало стр. registration */
+.registration-box {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 96px;
+
+  .information {
+    width: 360px;
+    height: auto;
+
+    .form-name {
+      height: 149px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      margin-bottom: 31px;
+
+      input {
+        width: 100%;
+        height: 45px;
+        border: 1px solid #a4a4a4;
+        background: #ffffff;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #b1b1b1;
+        padding-left: 17px;
+        opacity: 0.6;
+      }
+
+      span {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+      }
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      color: #b1b1b1;
+      padding-bottom: 39px;
+    }
+
+    .sex {
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 13px;
+      color: #000000;
+      margin-bottom: 33px;
+      width: 132px;
+      height: 17px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .login {
+      width: 100%;
+      height: 149px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      margin-bottom: 15px;
+
+      span {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+      }
+
+      input {
+        width: 100%;
+        height: 45px;
+        border: 1px solid #a4a4a4;
+        background: #ffffff;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: #b1b1b1;
+        padding-left: 17px;
+        opacity: 0.6;
+      }
+    }
+
+    button {
+      font-weight: normal;
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 17px;
+      color: #ffffff;
+      width: 167px;
+      height: 50px;
+      background: #f16d7f;
+      border: none;
+      cursor: pointer;
+
+      img {
+        padding-left: 20px;
+      }
+    }
+  }
+
+  .loyalty {
+    width: 652px;
+
+    p:first-child {
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+      text-transform: uppercase;
+      padding-bottom: 22px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+      padding-bottom: 21px;
+    }
+
+    ul {
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+      list-style-type: none;
+
+      li {
+        background: url(../img/marker.png);
+        background-repeat: no-repeat;
+        padding-left: 43px;
+        background-position: left;
+      }
+
+      li:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .registration-box {
+    margin-top: 40px;
+
+    .loyalty {
+      width: 354px;
+      height: 337px;
+
+      p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+      }
+
+      p:first-child {
+        padding-bottom: 32px;
+        font-size: 16px;
+      }
+
+      li {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .registration-box {
+    flex-wrap: wrap;
+
+    .loyalty {
+      padding-top: 40px;
+    }
+  }
+}
+/* Конец стр. registration */

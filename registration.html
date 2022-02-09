@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Registration</title>
+    <script src="https://kit.fontawesome.com/a4b4dff806.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- ========= HEADER ============= -->
+        <div class="container">
+            <div class="head">
+                <div class="head__logo">
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                    <form action="#">
+                        <input id="search-btn" type="image" src="img/search.svg" alt="search">
+                    </form>
+                </div>
+                <nav class="head__navigation">
+                    <a class="menu_btn" href="#"><img src="img/menu-btn.svg" alt=""></a>
+                    <a class="account__btn" href="#">
+                        <img src="img/account.svg" alt="account">
+                    </a>
+                    <a class="cart" href="cart.html">
+                        <img src="img/cart.svg" alt="cart">
+                        <div class="cart-txt">5</div>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="breadcrumbs">
+        <!-- ********SHOPPPING CART******** -->
+        <div class="breadcrumbs_content container">
+            <h1 class="arrivals">Registration</h1>
+        </div>
+    </div>
+
+    <main class="container"> <!-- ========= MAIN ============= -->
+        <div class="registration-box">
+            <div class="information">
+                <form class="form-name" action="#">
+                    <span>Your Name</span>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </form>
+
+                <form class="sex" action="#">
+                    <input type="radio" name="sex" value="male" id="1">
+                    <label for="1">Male</label>
+
+                    <input type="radio" name="sex" value="female" id="2">
+                    <label for="2">Female</label>
+                </form>
+
+                <form class="login" action="#">
+                    <span>Login details</span>
+                    <input type="email" placeholder="Email">
+                    <input type="password"  minlength="8" required placeholder="Password"> 
+                </form>
+
+                <p>Please use 8&nbsp;or more characters, with at&nbsp;least 1&nbsp;number and a&nbsp;mixture of&nbsp;uppercase and
+                lowercase letters</p>
+                <button type="submit">
+                    Join now
+                    <img src="img/join.png" alt="">
+                </button>
+            </div>
+
+            <div class="loyalty">
+                <p>Loyalty has its perks</p>
+                <p>Get in&nbsp;on&nbsp;the loyalty program where you can earn points and unlock serious perks. Starting with these
+                as&nbsp;soon as&nbsp;you join:</p>
+                <ul>
+                    <li>15% off welcome offer</li>
+                    <li>Free shipping, returns and exchanges on&nbsp;all orders</li>
+                    <li>$10 off a purchase on your birthday</li>
+                    <li>Early access to&nbsp;products</li>
+                    <li>Exclusive offers &amp;&nbsp;rewards</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div class="mail">
+        <!-- ********MAIL******** -->
+        <div class="container">
+            <div class="info">
+                <div class="info__left">
+                    <p class="info-text">&laquo;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi,
+                        <span class="italic">a&nbsp;pulvinar purus condimentum&raquo;</span>
+                    </p>
+                </div>
+                <div class="form-subscribe">
+                    <div class="subscribe-mail">
+                        <span class="tittle">Subscribe</span>
+                        <span class="subtittle">for our newletter and promotion</span>
+                    </div>
+                    <form class="form" action="#">
+                        <div class="form-mail">
+                            <input class="mail__chat" type="email" placeholder="Enter Your Email">
+                        </div>
+                        <button class="button-sub" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <!-- ========= FOOTER ============= -->
+        <div class="container">
+            <div class="footer-content">
+                <p class="rights">&copy;&nbsp;2021 Brand All Rights Reserved.</p>
+                <div class="footer__icons">
+                    <ul class="soc-icon-box">
+                        <li class="soc-icon-items">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="soc-icon-items">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="soc-icon-items">
+                            <a href="#">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li class="soc-icon-items">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    </body>
+    
+    </html>
